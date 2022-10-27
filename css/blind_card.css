@@ -1,0 +1,23 @@
+* {
+  background-color: #fffaf5;
+}
+
+header {
+  height: 50px;
+}
+
+#card_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10vh 10vw 10vh 10vw;
+}
+
+#card_content h1 {
+  margin-bottom: 10vh;
+}
+
+#card_content p {
+  margin-bottom: 10vh;
+  padding-right: 30%;
+}

@@ -1,4 +1,6 @@
-let img = document.getElementById("img");
+let p = document.getElementById("p");
+
+let sizeUp = document.getElementById("sizeUp");
 var x = document.getElementById("myAudio");
 
 function playAudio() {
@@ -9,11 +11,8 @@ function pauseAudio() {
   x.pause();
 }
 
-/*var audio = document.getElementById("myAudio");
-function playAudio() {
-  audio.play();
+function sizeup() {
+  style = window.getComputedStyle(p, null).getPropertyValue("font-size");
+  currentSize = parseFloat(style);
+  p.style.fontSize = currentSize + 220 + "px";
 }
-
-function pauseAudio() {
-  audio.pause();
-}*/

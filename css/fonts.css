@@ -26,14 +26,12 @@ h1 {
 }
 
 h3 {
-  font-family: Inter-Regular;
-  font-size: 1.5rem;
-  line-height: 37.5px;
-  letter-spacing: 0.035em;
+  font-family: Inter-MEdium;
+  font-size: 1.3rem;
 }
 
 p {
-  font-family: Inter-Regular;
+  font-family: Inter-Medium;
   font-size: 1.2rem;
   line-height: 37.5px;
   letter-spacing: 0.035em;

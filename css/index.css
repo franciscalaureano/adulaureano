@@ -15,11 +15,15 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 4vw;
-  column-gap: 2vw;
-  row-gap: 2vh;
+  column-gap: 3vw;
+  row-gap: 7vh;
 }
 
-.imgtxt_container img {
-  width: 95%;
+.imgtxt_container {
+  width: 20%;
   height: auto;
+}
+
+footer {
+  height: 100px;
 }

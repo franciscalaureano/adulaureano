@@ -1,18 +1,18 @@
-let p = document.getElementById("p");
-
-let sizeUp = document.getElementById("sizeUp");
-var x = document.getElementById("myAudio");
+var audio1 = document.getElementById("audio1");
+var audio2 = document.getElementById("audio2");
+var audio3 = document.getElementById("audio3");
+var audio4 = document.getElementById("audio4");
 
 function playAudio() {
-  x.play();
+  audio1.play();
+  audio2.play();
+  audio3.play();
+  audio4.play();
 }
 
 function pauseAudio() {
-  x.pause();
-}
-
-function sizeup() {
-  style = window.getComputedStyle(p, null).getPropertyValue("font-size");
-  currentSize = parseFloat(style);
-  p.style.fontSize = currentSize + 220 + "px";
+  audio1.pause();
+  audio2.pause();
+  audio3.pause();
+  audio4.pause();
 }

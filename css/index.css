@@ -4,6 +4,21 @@
 header {
   height: 100px;
 }
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown-options {
+  display: none;
+  position: absolute;
+  overflow: auto;
+}
+
+.dropdown:hover .dropdown-options {
+  display: block;
+  transition-duration: 0.8s;
+}
 /*---------PERSONA---------*/
 #index_content h1 {
   margin: 10vh 0 10vh 10vw;
@@ -19,11 +34,18 @@ header {
   row-gap: 7vh;
 }
 
-.imgtxt_container {
+#imgtxt_container {
   width: 20%;
   height: auto;
   cursor: url("https://drive.google.com/file/d/1hZS4NpP-q7xC-8kehH41g61emZd3wPeq/view?usp=share_link"),
     auto;
+  transition-duration: 0.8s;
+}
+
+#imgtxt_container:hover {
+  transform: translate(0, -20px);
+  transition-duration: 0.8s;
+  cursor: pointer;
 }
 
 footer {

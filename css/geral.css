@@ -1,0 +1,12 @@
+#header_card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: 5vh 5vw 0 5vw;
+}
+
+#go_back p {
+  font-family: Inter-Medium;
+  font-size: 25px;
+}

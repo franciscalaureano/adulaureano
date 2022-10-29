@@ -22,6 +22,8 @@ header {
 .imgtxt_container {
   width: 20%;
   height: auto;
+  cursor: url("https://drive.google.com/file/d/1hZS4NpP-q7xC-8kehH41g61emZd3wPeq/view?usp=share_link"),
+    auto;
 }
 
 footer {

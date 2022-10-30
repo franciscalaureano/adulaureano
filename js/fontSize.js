@@ -1,9 +1,16 @@
 let p = document.getElementById("p");
 
-let sizeUp = document.getElementById("sizeUp");
+let sizeup = document.getElementById("sizeUp");
+let sizedown = document.getElementById("sizeDown");
 
-function sizeup() {
+function sizeUp() {
   style = window.getComputedStyle(p, null).getPropertyValue("font-size");
   currentSize = parseFloat(style);
-  p.style.fontSize = currentSize + 220 + "px";
+  p.style.fontSize = currentSize + 2 + "px";
+}
+
+function sizeDown() {
+  style = window.getComputedStyle(p, null).getPropertyValue("font-size");
+  currentSize = parseFloat(style);
+  p.style.fontSize = currentSize - 2 + "px";
 }

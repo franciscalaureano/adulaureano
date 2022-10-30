@@ -8,6 +8,8 @@
     <link rel="stylesheet" type="text/css" href="css/blind_card.css"></link>
     <link rel="stylesheet" type="text/css" href="css/dropdown.css"></link>
     <link rel="stylesheet" type="text/css" href="css/geral.css"></link>
+    <link rel="stylesheet" type="text/css" href="css/font_size.css"></link>
+
    
     <title>Senior staff member who is blind</title>
   </head>
@@ -36,6 +38,12 @@
         </div>
       </div>
     </header>
+
+    <section class="fontSize">
+      <div id="sizeUp" onclick="sizeUp()">+</div>
+      <div>Aa</div>
+      <div id="sizeDown " onclick="sizeDown()">-</div>
+    </section>
     <!------------------------------------------------------->
     <!-------------------------Card C------------------------>
     <!------------------------------------------------------->
@@ -66,7 +74,7 @@
         height="auto"
         onclick="playAudio()" 
       />
-        <p>Ilya	 is	 blind.	 As	 the	 chief	 accountant	 at	 an	insurance	company,	she	uses 
+        <p id="p">Ilya	 is	 blind.	 As	 the	 chief	 accountant	 at	 an	insurance	company,	she	uses 
             a	screen	reader	and	smartphone	to	access	the	web.	Her	screen	reader	and	 her	
             phone	 accessibility	 features	 provide	 her	with	information	about	the	applications,	
             and	text	content	in	a	speech	output	form.	
@@ -176,6 +184,8 @@
 
     <script src="js/audio.js"></script>
     <script src="js/backArrow.js"></script>
+    <script src="js/fontSize.js"></script>
+
 
   </body>
 </html>

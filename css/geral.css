@@ -6,20 +6,17 @@
   margin: 5vh 3vw 0 3vw;
 }
 
-#go_back p {
+#go_back a {
   font-family: Inter-Medium;
   font-size: 25px;
   cursor: pointer;
+  color: #000000;
+  text-decoration: none;
   transition: 0.8s;
 }
 
-#go_back a {
-  color: #000000;
-  text-decoration: none;
-}
-
-#go_back p:hover {
-  font-size: 30px;
+#go_back a:hover {
+  color: #784108;
   transition: 0.8s;
 }
 

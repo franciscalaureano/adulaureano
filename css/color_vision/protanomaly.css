@@ -26,3 +26,13 @@ footer {
   width: 90%;
   color: #101010;
 }
+.sound_img {
+  height: auto;
+  width: 5%;
+}
+
+.pause_img {
+  margin-left: 1vw;
+  height: auto;
+  width: 5%;
+}

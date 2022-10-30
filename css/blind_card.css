@@ -24,7 +24,19 @@ footer {
 .content .teste p {
   width: 90%;
 }
-
 .sound_img {
-  cursor: pointer;
+  height: auto;
+  width: 5%;
 }
+
+.pause_img {
+  margin-left: 1vw;
+  height: auto;
+  width: 5%;
+}
+
+/*
+
+.sound_img :hover {
+  cursor: pointer;
+}*/

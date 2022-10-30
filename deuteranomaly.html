@@ -25,7 +25,14 @@
      </section>
 
      <div class="dropdown">
-        <button>Colorblind Vision</button>
+      <div id="colorblind_vision"><p>Colorblind Vision</p>
+        <img
+        src="img/arrow.png"
+        class="draw"
+        alt="Seta da opção de Colorblind"
+        width="auto"
+        height="100%"
+      /></div>
         <div class="dropdown-options">
           <a class="option" href="protanomaly.html"><p>Protanomaly</p></a>
           <a class="option" href="deuteranomaly.html"><p>Deuteranomaly</p></a>
@@ -59,10 +66,20 @@
         <div class="teste">
         <img
         src="img/sound.png"
+        class="sound_img"
         alt="first img"
         width="auto"
         height="auto"
+        onclick="playAudio()"
       />
+      <img
+      src="img/pause.png"
+      class="pause_img"
+      alt="first img"
+      width="100%"
+      height="auto"
+      onclick="pauseAudio()"
+    />
         <p>Ilya	 is	 blind.	 As	 the	 chief	 accountant	 at	 an	insurance	company,	she	uses 
             a	screen	reader	and	smartphone	to	access	the	web.	Her	screen	reader	and	 her	
             phone	 accessibility	 features	 provide	 her	with	information	about	the	applications,	
@@ -82,10 +99,20 @@
         <div class="teste">
         <img
         src="img/sound.png"
+        class="sound_img"
         alt="first img"
         width="auto"
         height="auto"
+        onclick="playAudio()"
       />
+      <img
+      src="img/pause.png"
+      class="pause_img"
+      alt="first img"
+      width="100%"
+      height="auto"
+      onclick="pauseAudio()"
+    />
         <p>When	accessing web	 content,	 the screen	 reader	 reads	 aloud	 the structural	 information	 
             of	 a	 page,	 including headings,	 column	 and	 row	 headers	 in	 tables,	links,	
             and	form	controls,	enabling	her	to	navigate	the	 page,	 submit	 forms,	 and	 access	 
@@ -106,10 +133,20 @@
         <div class="teste">
         <img
         src="img/sound.png"
+        class="sound_img"
         alt="first img"
         width="auto"
         height="auto"
+        onclick="playAudio()"
       />
+      <img
+      src="img/pause.png"
+      class="pause_img"
+      alt="first img"
+      width="100%"
+      height="auto"
+      onclick="pauseAudio()"
+    />
         <p>She	listens	to and	understands	speech	output	at	a	high	speed.	Sites	that	are	not	properly
             coded	and	do	not	include	alt	text	descriptions	on	images	are	unnavigable	and	require	a	lot	
             of	time	to	read	text	from	 the	 top	 of	 the	 page	 to	 the	 boGom.	
@@ -130,10 +167,21 @@
         <div class="teste">
         <img
         src="img/sound.png"
+        class="sound_img"
         alt="first img"
         width="auto"
         height="auto"
+        onclick="playAudio()"
       />
+      
+      <img
+      src="img/pause.png"
+      class="pause_img"
+      alt="first img"
+      width="100%"
+      height="auto"
+      onclick="pauseAudio()"
+    />
         <p>As	 a	senior	member	of	her	organization,	Ilya	provides	training	 to	 employees	 using	 
             video	 conferencing,	chat,	 document	 and	 slide	 sharing. Her	 staff	evaluated	 many	
              tools before finding an	application	 with accessibility	 features	 that	 meet	
@@ -144,5 +192,8 @@
 
     </section>
     <footer></footer>
+    <script src="js/audio.js"></script>
+    <script src="js/backArrow.js"></script>
+    <script src="js/fontSize.js"></script>
   </body>
 </html>

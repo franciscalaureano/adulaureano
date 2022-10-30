@@ -5,16 +5,20 @@
   align-items: center;
   row-gap: 5vh;
   margin: 25vh 0 0 3vw;
-  padding: 1vh 1vw 1vh 1vw;
-  background-color: #f5ddc4;
   border: 2px solid #000000;
   border-radius: 15px;
+  /* padding: 1vh 1vw 1vh 1vw;
+  
+  border: 2px solid #000000;
+  border-radius: 15px;*/
+  background-color: #f5ddc4;
 }
 
 .fontSize div {
   font-size: 25px;
   font-family: Inter-Medium;
   background-color: #f5ddc4;
+  border-radius: 15px;
 }
 
 .fontSize #sizeUp,
@@ -23,12 +27,12 @@
   cursor: pointer;
   /*opacity: 0.5;*/
   transition: 0.8s;
+  padding: 1.5vh 1.5vw;
 }
 
 .fontSize #sizeUp:hover,
 .fontSize #sizeDown:hover {
   cursor: pointer;
-  /* opacity: 1;*/
-  font-size: 40px;
+  background-color: #fffaf5;
   transition: 0.8s;
 }

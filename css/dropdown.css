@@ -29,14 +29,16 @@
   text-decoration: none;
 }
 
-.dropdown-options a p:hover {
-  background-color: #fffaf5;
-}
-
 .dropdown-options a p {
   font-family: Inter-Regular;
   font-size: 20px;
   background-color: #f5ddc4;
+  transition-duration: 0.8s;
+}
+
+.dropdown-options a p:hover {
+  font-family: Inter-SemiBold;
+  transition-duration: 0.8s;
 }
 
 .dropdown:hover .dropdown-options {

@@ -9,4 +9,16 @@
 #go_back p {
   font-family: Inter-Medium;
   font-size: 25px;
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+#go_back a {
+  color: #000000;
+  text-decoration: none;
+}
+
+#go_back p:hover {
+  font-size: 30px;
+  transition: 0.8s;
 }

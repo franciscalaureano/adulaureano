@@ -5,14 +5,30 @@
   align-items: center;
   row-gap: 5vh;
   margin: 25vh 0 0 3vw;
+  padding: 1vh 1vw 1vh 1vw;
+  background-color: #f5ddc4;
+  border: 2px solid #000000;
+  border-radius: 15px;
 }
 
 .fontSize div {
   font-size: 25px;
   font-family: Inter-Medium;
+  background-color: #f5ddc4;
 }
 
 .fontSize #sizeUp,
 .fontSize #sizeDown {
+  font-size: 30px;
   cursor: pointer;
+  /*opacity: 0.5;*/
+  transition: 0.8s;
+}
+
+.fontSize #sizeUp:hover,
+.fontSize #sizeDown:hover {
+  cursor: pointer;
+  /* opacity: 1;*/
+  font-size: 40px;
+  transition: 0.8s;
 }

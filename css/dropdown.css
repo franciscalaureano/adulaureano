@@ -1,17 +1,30 @@
-.dropdown {
-  /*display: inline-block;*/
+/*.dropdown {
   position: relative;
   float: right;
-}
-
-.dropdown button {
+}*/
+.dropdown #colorblind_vision {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 1vw;
   background-color: #f5ddc4;
   border: 2px solid #000000;
   border-radius: 15px;
+  padding: 2vh 1vw;
+  margin-bottom: 2vh;
+}
+
+.dropdown #colorblind_vision p {
   font-family: Inter-Medium;
   font-size: 25px;
-  padding: 2vh 1.5vw;
-  margin-bottom: 2vh;
+  margin: 0;
+  background-color: #f5ddc4;
+}
+
+.dropdown #colorblind_vision img {
+  height: 70%;
+  width: auto;
+  background-color: #f5ddc4;
 }
 
 .dropdown-options {

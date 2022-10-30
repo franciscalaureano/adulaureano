@@ -22,3 +22,15 @@
   font-size: 30px;
   transition: 0.8s;
 }
+
+#go_back {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1vw;
+  align-items: center;
+}
+
+#go_back img {
+  width: auto;
+  height: 30%;
+}

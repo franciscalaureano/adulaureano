@@ -29,13 +29,10 @@
   font-size: 30px;
   cursor: pointer;
   /*opacity: 0.5;*/
-  transition: 0.8s;
   padding: 1.5vh 1.5vw;
 }
 
 .fontSize #sizeUp:hover,
 .fontSize #sizeDown:hover {
   cursor: pointer;
-  background-color: #fffaf5;
-  transition: 0.8s;
 }

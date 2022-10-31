@@ -12,12 +12,6 @@
   cursor: pointer;
   color: #000000;
   text-decoration: none;
-  transition: 0.8s;
-}
-
-#go_back a:hover {
-  color: #784108;
-  transition: 0.8s;
 }
 
 #go_back {

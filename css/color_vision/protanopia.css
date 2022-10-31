@@ -17,10 +17,6 @@ footer {
   margin: 10vh 10vw 10vh 8vw;
 }
 
-.content .teste {
-  margin-left: 5vw;
-}
-
 .content .teste p {
   width: 65%;
   color: #141313;
@@ -38,4 +34,36 @@ footer {
 .sound_img:hover,
 .pause_img:hover {
   cursor: pointer;
+}
+
+/**/
+
+.dropdown #colorblind_vision {
+  background-color: #ebdfc4;
+}
+
+.dropdown #colorblind_vision p {
+  background-color: #ebdfc4;
+}
+
+.dropdown #colorblind_vision img {
+  background-color: #ebdfc4;
+}
+
+.dropdown-options {
+  background-color: #ebdfc4;
+}
+
+.dropdown-options a p {
+  background-color: #ebdfc4;
+}
+
+/**/
+
+.fontSize {
+  background-color: #ebdfc4;
+}
+
+.fontSize div {
+  background-color: #ebdfc4;
 }

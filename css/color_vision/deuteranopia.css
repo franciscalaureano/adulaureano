@@ -2,7 +2,6 @@
   background-color: #fff9fb;
 }
 
-heade,
 footer {
   height: 50px;
 }
@@ -16,10 +15,6 @@ footer {
   flex-direction: row;
   justify-content: center;
   margin: 10vh 10vw 10vh 8vw;
-}
-
-.content .teste {
-  margin-left: 5vw;
 }
 
 .content .teste p {
@@ -40,4 +35,36 @@ footer {
 .sound_img:hover,
 .pause_img:hover {
   cursor: pointer;
+}
+
+/**/
+
+.dropdown #colorblind_vision {
+  background-color: #ffd8c6;
+}
+
+.dropdown #colorblind_vision p {
+  background-color: #ffd8c6;
+}
+
+.dropdown #colorblind_vision img {
+  background-color: #ffd8c6;
+}
+
+.dropdown-options {
+  background-color: #ffd8c6;
+}
+
+.dropdown-options a p {
+  background-color: #ffd8c6;
+}
+
+/**/
+
+.fontSize {
+  background-color: #ffd8c6;
+}
+
+.fontSize div {
+  background-color: #ffd8c6;
 }

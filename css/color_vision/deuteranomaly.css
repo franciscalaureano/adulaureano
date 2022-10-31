@@ -37,3 +37,35 @@ footer {
 .pause_img:hover {
   cursor: pointer;
 }
+
+/**/
+
+.dropdown #colorblind_vision {
+  background-color: #fcdac5;
+}
+
+.dropdown #colorblind_vision p {
+  background-color: #fcdac5;
+}
+
+.dropdown #colorblind_vision img {
+  background-color: #fcdac5;
+}
+
+.dropdown-options {
+  background-color: #fcdac5;
+}
+
+.dropdown-options a p {
+  background-color: #fcdac5;
+}
+
+/**/
+
+.fontSize {
+  background-color: #fcdac5;
+}
+
+.fontSize div {
+  background-color: #fcdac5;
+}

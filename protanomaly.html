@@ -19,21 +19,25 @@
     <!-------------------------HEADER------------------------>
     <!------------------------------------------------------->
     <header id="header_card">
-      
-      <section id="go_back">
-        <a href="blind_card.html">
-         <p>Normal Vision</p></a>
-     </section>
 
-     <div class="dropdown">
-      <div id="colorblind_vision"><p>Colorblind Vision</p>
-        <img
-        src="img/arrow.png"
-        class="draw"
-        alt="Seta da opção de Colorblind"
-        width="auto"
-        height="100%"
-      /></div>
+      <section id="go_back">
+         <img class="arrow left"
+         src="img/arrow90.png"
+         alt="Seta andar para trás"
+         width="auto"
+         height="100%"/>
+          <a href="index.html">Back</a>
+      </section>
+
+      <div class="dropdown">
+        <div id="colorblind_vision"><p>Colorblind Vision</p>
+          <img
+          src="img/arrow.png"
+          class="draw"
+          alt="Seta da opção de Colorblind"
+          width="auto"
+          height="100%"
+        /></div>
         <div class="dropdown-options">
           <a class="option" href="protanomaly.html"><p>Protanomaly</p></a>
           <a class="option" href="deuteranomaly.html"><p>Deuteranomaly</p></a>
@@ -44,68 +48,87 @@
           <a class="option" href="tritanopia.html"><p>Tritanopia</p></a>
           <a class="option" href="achromatopsia.html"><p>Achromatopsia</p></a>
         </div>
-      </div></header>
-      <section class="fontSize">
-        <div id="sizeUp" onclick="sizeUp()">+</div>
-        <div>Aa</div>
-        <div id="sizeDown" onclick="sizeDown()">-</div>
-      </section>
+      </div>
+    </header>
+
+    <section class="section_font_size" >
+      <div class="fontSize">
+      <div id="sizeUp" onclick="sizeUp()">+</div>
+      <div>Aa</div>
+      <div id="sizeDown" onclick="sizeDown()">-</div>
+    </div>
+    </section>
     <!------------------------------------------------------->
     <!-------------------------Card C------------------------>
     <!------------------------------------------------------->
     <section id="card_content">
     <h1>Senior staff member <br> who is blind </h1>
-        <!--first-->
+        
+        <!--------------------------------------------->
+        <!-------------------first-------------------->
+        <!--------------------------------------------->
+
         <div class="content">
-        <img
+       <!-- <img
           src="img/img_card.png"
           class="draw"
           alt="first img"
           width="auto"
-          height="auto"
-        />
+          height="100%"
+        />-->
         <div class="teste">
-        <img
+          <audio id="audio1">
+            <source src="audio/teste.mp3" type="audio/mpeg" />
+          </audio>
+       <img
         src="img/sound.png"
         class="sound_img"
         alt="first img"
-        width="auto"
+        width="100%"
         height="auto"
-        onclick="playAudio()"
+        onclick="playAudio()" 
       />
-      <img
-      src="img/pause.png"
-      class="pause_img"
-      alt="first img"
-      width="100%"
-      height="auto"
-      onclick="pauseAudio()"
-    />
-        <p>Ilya	 is	 blind.	 As	 the	 chief	 accountant	 at	 an	insurance	company,	she	uses 
+    <img
+        src="img/pause.png"
+        class="pause_img"
+        alt="first img"
+        width="100%"
+        height="auto"
+        onclick="pauseAudio()"
+      />
+        <p id="p1">Ilya	 is	 blind.	 As	 the	 chief	 accountant	 at	 an	insurance	company,	she	uses 
             a	screen	reader	and	smartphone	to	access	the	web.	Her	screen	reader	and	 her	
             phone	 accessibility	 features	 provide	 her	with	information	about	the	applications,	
             and	text	content	in	a	speech	output	form.	
         </p>
       </div>
       </div>
-       <!--second-->
+
+       <!--------------------------------------------->
+       <!-------------------second-------------------->
+       <!--------------------------------------------->
+
        <div class="content">
-        <img
+        <!-- <img
           src="img/img_card.png"
           class="draw"
           alt="first img"
           width="auto"
-          height="auto"
-        />
+          height="100%"
+        />-->
         <div class="teste">
-        <img
+          <audio id="audio2">
+            <source src="audio/teste.mp3" type="audio/mpeg" />
+          </audio>
+    <img
         src="img/sound.png"
         class="sound_img"
         alt="first img"
-        width="auto"
+        width="100%"
         height="auto"
-        onclick="playAudio()"
+        onclick="playAudio()" 
       />
+
       <img
       src="img/pause.png"
       class="pause_img"
@@ -114,7 +137,7 @@
       height="auto"
       onclick="pauseAudio()"
     />
-        <p>When	accessing web	 content,	 the screen	 reader	 reads	 aloud	 the structural	 information	 
+        <p id="p2">When	accessing web	 content,	 the screen	 reader	 reads	 aloud	 the structural	 information	 
             of	 a	 page,	 including headings,	 column	 and	 row	 headers	 in	 tables,	links,	
             and	form	controls,	enabling	her	to	navigate	the	 page,	 submit	 forms,	 and	 access	 
             information.		
@@ -122,24 +145,31 @@
       </div>
         </div>
 
-        <!--third-->
+        <!--------------------------------------------->
+        <!-------------------third-------------------->
+        <!--------------------------------------------->
+      
         <div class="content">
-        <img
+        <!-- <img
           src="img/img_card.png"
           class="draw"
           alt="first img"
           width="auto"
-          height="auto"
-        />
+          height="100%"
+        />-->
         <div class="teste">
+          <audio id="audio3">
+            <source src="audio/teste.mp3" type="audio/mpeg" />
+          </audio>
         <img
         src="img/sound.png"
         class="sound_img"
         alt="first img"
-        width="auto"
+        width="100%"
         height="auto"
-        onclick="playAudio()"
+        onclick="playAudio()" 
       />
+
       <img
       src="img/pause.png"
       class="pause_img"
@@ -148,7 +178,7 @@
       height="auto"
       onclick="pauseAudio()"
     />
-        <p>She	listens	to and	understands	speech	output	at	a	high	speed.	Sites	that	are	not	properly
+        <p id="p3" >She	listens	to and	understands	speech	output	at	a	high	speed.	Sites	that	are	not	properly
             coded	and	do	not	include	alt	text	descriptions	on	images	are	unnavigable	and	require	a	lot	
             of	time	to	read	text	from	 the	 top	 of	 the	 page	 to	 the	 boGom.	
             Occasionally	she finds	herself	trapped	in	areas	on	a	 page,	 unable	 to	 move	 to	 
@@ -156,24 +186,31 @@
         </p>
       </div>
       </div>
-        <!--fourth-->
+        <!--------------------------------------------->
+        <!-------------------fourth-------------------->
+        <!--------------------------------------------->
         <div class="content">
-        <img
+       <!-- <img
           src="img/img_card.png"
           class="draw"
           alt="first img"
           width="auto"
-          height="auto"
-        />
+          height="100%"
+        />-->
+        
         <div class="teste">
+          <audio id="audio4">
+            <source src="audio/teste.mp3" type="audio/mpeg" />
+          </audio>
         <img
         src="img/sound.png"
         class="sound_img"
         alt="first img"
-        width="auto"
+        width="100%"
         height="auto"
-        onclick="playAudio()"
+        onclick="playAudio()" 
       />
+
       <img
       src="img/pause.png"
       class="pause_img"
@@ -182,18 +219,22 @@
       height="auto"
       onclick="pauseAudio()"
     />
-        <p>As	 a	senior	member	of	her	organization,	Ilya	provides	training	 to	 employees	 using	 
+        <p id="p4">As	 a	senior	member	of	her	organization,	Ilya	provides	training	 to	 employees	 using	 
             video	 conferencing,	chat,	 document	 and	 slide	 sharing. Her	 staff	evaluated	 many	
              tools before finding an	application	 with accessibility	 features	 that	 meet	
              the needs	of	a	staff	with	diverse	abilities.		 	
         </p>
       </div>
+       
         </div>
 
     </section>
     <footer></footer>
+
     <script src="js/audio.js"></script>
     <script src="js/backArrow.js"></script>
     <script src="js/fontSize.js"></script>
+
+
   </body>
 </html>

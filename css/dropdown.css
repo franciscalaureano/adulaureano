@@ -1,7 +1,6 @@
-/*.dropdown {
-  position: relative;
-  float: right;
-}*/
+.dropdown {
+  z-index: 1;
+}
 .dropdown #colorblind_vision {
   display: flex;
   flex-direction: row;
